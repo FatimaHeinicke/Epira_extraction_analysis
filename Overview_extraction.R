@@ -540,7 +540,7 @@ Tot_NanoDrop_CD19_2 <- read.table(paste(path, "Extraction/NanoDrop_totalRNA/Nano
 #plot(sort(Tot_NanoDrop_CD4naive2$ng_ul), pch= 20, ylim= c(0,130))
 #text(sort(Tot_NanoDrop_CD4naive2$ng_ul), labels= Tot_NanoDrop_CD4naive2$SampleID[order(
 #  Tot_NanoDrop_CD4naive2$ng_ul)],
-#     srt=90, cex= 0.8, pos= 3, offset= 0.8)
+#     srt=90, cex= 0.8, pos= 3, offset= 0.8) 
 
 # Mark those samples that reach a concentration above 100ng in 6 ul because this is the
 # maximum input amount in the NebNext kit
